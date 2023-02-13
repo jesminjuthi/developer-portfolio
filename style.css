@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.primary-color{
+.primary-color {
     color: #fd6e0a;
 }
 
-.btn-primary{
+.btn-primary {
     height: 64px;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -16,28 +16,35 @@
     font-weight: 700;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 /* Header and navigation style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 200px;
 }
 
-nav ul{
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-left: 50px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
-}
